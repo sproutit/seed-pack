@@ -1,0 +1,16 @@
+{
+  "name": "pack",
+  "version": "0.1.0",
+  
+  "description": "Packs Seed packages into JavaScript files for loading into the web browser",
+  
+  "dependencies": {
+    "seed": "0.3.0",
+    "core-support": "0.2.1"
+  },
+  
+  "seed:commands": {
+    "pack": "pack:seed-command"
+  }
+  
+}

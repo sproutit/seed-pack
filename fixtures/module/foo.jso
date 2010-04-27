@@ -1,0 +1,32 @@
+#JSO1.0
+{
+ "type": "container",
+ "loader": false,
+ "objects": [
+  {
+   "loader": false,
+   "imports": [
+    "./has_exports"
+   ],
+   "exports": [],
+   "modules": true,
+   "packageId": "::(anonymous)",
+   "moduleId": "/Users/charles/Sites/sproutcore/tools/packages/pack/fixtures/module/with_import.js",
+   "id": "::(anonymous):/Users/charles/Sites/sproutcore/tools/packages/pack/fixtures/module/with_import.js",
+   "text": ";tiki.module(\"::(anonymous):/Users/charles/Sites/sproutcore/tools/packages/pack/fixtures/module/with_import.js\", function(require, exports, module) {var $m__;$m__=require(\"./has_exports\"); var foo=$m__.foo;\"import ./has_exports\";\nexports.helloWorld = foo;\n\n});\n",
+   "type": "module"
+  },
+  {
+   "loader": false,
+   "imports": [],
+   "exports": [],
+   "modules": true,
+   "packageId": "::(anonymous)",
+   "moduleId": "/Users/charles/Sites/sproutcore/tools/packages/pack/fixtures/module/basic.js",
+   "id": "::(anonymous):/Users/charles/Sites/sproutcore/tools/packages/pack/fixtures/module/basic.js",
+   "text": ";tiki.module(\"::(anonymous):/Users/charles/Sites/sproutcore/tools/packages/pack/fixtures/module/basic.js\", function(require, exports, module) {// no directives\nexports.helloWorld = \"Hello World\";\n\n});\n",
+   "type": "module"
+  }
+ ],
+ "modules": true
+}
